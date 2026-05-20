@@ -1,5 +1,5 @@
 ################################################################################
-# Unit Tests for tf-null-label
+# Unit Tests for tf-label
 # Uses Terraform native test framework (terraform test)
 ################################################################################
 

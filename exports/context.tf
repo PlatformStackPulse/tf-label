@@ -1,7 +1,7 @@
 #
 # Copy this file into your Terraform module to automatically get
-# tf-null-label's standard configuration inputs suitable for passing
-# to tf-null-label modules.
+# tf-label's standard configuration inputs suitable for passing
+# to tf-label modules.
 #
 # Modules should access the whole context as `module.this.context`
 # to get the input variables with nulls for defaults,
@@ -11,7 +11,7 @@
 #
 
 module "this" {
-  source = "path/to/tf-null-label"
+  source = "git::https://github.com/PlatformStackPulse/tf-label.git?ref=v1.0.0"
 
   enabled             = var.enabled
   namespace           = var.namespace
@@ -33,7 +33,7 @@ module "this" {
   context = var.context
 }
 
-# Copy the variables from tf-null-label/variables.tf into your module
+# Copy the variables from tf-label/variables.tf into your module
 # to expose the same interface for context chaining.
 
 ################################################################################

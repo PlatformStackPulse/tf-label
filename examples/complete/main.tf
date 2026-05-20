@@ -1,5 +1,5 @@
 ################################################################################
-# Complete Example — tf-null-label
+# Complete Example — tf-label
 #
 # Demonstrates all features: chaining, label_order, descriptor_formats,
 # id_length_limit, tenant, and case control.

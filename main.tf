@@ -1,5 +1,5 @@
 ################################################################################
-# tf-null-label — Modern Terraform Naming & Tagging Module
+# tf-label — Modern Terraform Naming & Tagging Module
 #
 # Modernized rewrite of cloudposse/terraform-null-label leveraging:
 #   - optional() object attributes (Terraform 1.3+)
