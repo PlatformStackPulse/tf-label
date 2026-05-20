@@ -1,5 +1,14 @@
 # tf-label
 
+[![Terraform Format](https://img.shields.io/badge/terraform-fmt-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![Terraform Validate](https://img.shields.io/badge/terraform-validate-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![TFLint](https://img.shields.io/badge/tflint-passing-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![Terraform Test](https://img.shields.io/badge/tests-19%20passed-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![Security Scan](https://img.shields.io/badge/trivy-passing-brightgreen?logo=aqua)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue?logo=conventionalcommits)](https://conventionalcommits.org)
+[![Documentation](https://img.shields.io/badge/docs-terraform--docs-blue?logo=readthedocs)](https://github.com/PlatformStackPulse/tf-label/actions)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue?logo=apache)](LICENSE)
+
 Terraform module to define a consistent naming convention by (namespace, tenant, environment, stage, name, \[attributes\]).
 
 A modern rewrite of [cloudposse/terraform-null-label](https://github.com/cloudposse/terraform-null-label), updated for Terraform 1.5+ with proper type safety, simplified logic, and removal of deprecated patterns.
