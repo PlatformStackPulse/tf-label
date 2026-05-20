@@ -35,7 +35,6 @@ module "this" {
 
 # Copy the variables from tf-label/variables.tf into your module
 # to expose the same interface for context chaining.
-
 ################################################################################
 # Context Variable — Typed with optional() (Terraform 1.3+)
 #
@@ -272,4 +271,3 @@ variable "descriptor_formats" {
     Default is `{}` (`descriptors` output will be empty).
   EOT
 }
-

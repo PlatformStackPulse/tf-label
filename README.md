@@ -7,7 +7,7 @@
 [![Security Scan](https://img.shields.io/badge/trivy-passing-brightgreen?logo=aqua)](https://github.com/PlatformStackPulse/tf-label/actions)
 [![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue?logo=conventionalcommits)](https://conventionalcommits.org)
 [![Documentation](https://img.shields.io/badge/docs-terraform--docs-blue?logo=readthedocs)](https://github.com/PlatformStackPulse/tf-label/actions)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue?logo=apache)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue?logo=opensourceinitiative)](LICENSE)
 
 Terraform module to define a consistent naming convention by (namespace, tenant, environment, stage, name, \[attributes\]).
 
@@ -280,4 +280,4 @@ New (sha256): acme-production-re-2bbf9
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE)
+MIT — see [LICENSE](LICENSE)
