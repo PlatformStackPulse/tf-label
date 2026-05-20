@@ -1,0 +1,10 @@
+# Default owners for everything
+* @PlatformStackPulse/platform-engineering
+
+# Module core
+*.tf @PlatformStackPulse/platform-engineering
+
+# CI/CD and security
+.github/ @PlatformStackPulse/platform-engineering
+.pre-commit-config.yaml @PlatformStackPulse/platform-engineering
+.tflint.hcl @PlatformStackPulse/platform-engineering
